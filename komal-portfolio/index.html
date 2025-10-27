@@ -1,99 +1,351 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Komal Tawar | Portfolio</title>
+  <title>ProKodeHub | Smart Web Solutions & AI Integration</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- ===== Navbar ===== -->
-  <header class="navbar">
-    <nav>
-      <h1 class="logo">KT</h1>
-      <ul class="nav-links">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">ProKodeHub</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">&#9776;</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1>Building Intelligent Digital Experiences</h1>
+      <p>Empowering businesses and creators through innovative web, AI, and data-driven solutions.</p>
+      <div class="cta-group">
+        <a href="#portfolio" class="cta-button primary">Explore Our Work</a>
+        <a href="#contact" class="cta-button secondary">Let’s Collaborate</a>
+      </div>
+    </div>
   </header>
 
-  <!-- ===== Hero Section ===== -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <img src="https://via.placeholder.com/180" alt="Profile" class="profile-img" />
-      <h2>Komal Tawar</h2>
-      <h3>Full-Stack Web Developer & Data Analyst</h3>
-      <p>
-        Passionate about crafting modern web solutions and using data-driven insights
-        to solve real-world problems. Experienced in full-stack development,
-        data analysis, and machine learning.
-      </p>
-      <a href="#" class="btn resume-btn">Download Resume</a>
-    </div>
+  <!-- About Section -->
+  <section id="about" class="about-section fade-in">
+    <h2>About ProKodeHub</h2>
+    <p>ProKodeHub is a full-stack development startup that builds intelligent digital experiences — from web applications and AI integrations to creative brand websites for businesses and creators.</p>
+    <p>We combine design, data, and technology to craft solutions that are efficient, scalable, and truly intelligent.</p>
   </section>
 
-  <!-- ===== About Section ===== -->
-  <section id="about" class="about section">
-    <h2 class="section-title">About Me</h2>
-    <p>
-      I’m a dedicated and detail-oriented developer with experience in web development,
-      data analytics, and machine learning. I love combining technology and creativity
-      to build projects that make a real impact. I’m always exploring new tools and 
-      frameworks to stay at the forefront of innovation.
-    </p>
-  </section>
+  <!-- Services Section -->
+  <section id="services" class="services-section fade-in">
+    <h2>Our Expertise</h2>
+    <p class="section-subtitle">Delivering innovative, data-driven digital products.</p>
 
-  <!-- ===== Skills Section ===== -->
-  <section id="skills" class="skills section">
-    <h2 class="section-title">Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">Web Development</div>
-      <div class="skill-card">Data Analysis</div>
-      <div class="skill-card">Machine Learning</div>
-      <div class="skill-card">Python</div>
-      <div class="skill-card">JavaScript</div>
-      <div class="skill-card">SQL</div>
-    </div>
-  </section>
-
-  <!-- ===== Projects Section ===== -->
-  <section id="projects" class="projects section">
-    <h2 class="section-title">Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Pet Adoption Portal</h3>
-        <p>A responsive web app for connecting adopters with pets in need of homes.</p>
+    <div class="service-container">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <ul>
+          <li>React, Next.js, Django, Flask</li>
+          <li>Custom Backend APIs</li>
+          <li>Responsive UI & UX</li>
+        </ul>
       </div>
-      <div class="project-card">
-        <h3>Sales Data Dashboard</h3>
-        <p>Interactive dashboard visualizing business metrics using Python & Tableau.</p>
+
+      <div class="service-card">
+        <h3>AI-Powered Solutions</h3>
+        <ul>
+          <li>Chatbots & NLP Integration</li>
+          <li>Machine Learning Models</li>
+          <li>Automation Workflows</li>
+        </ul>
       </div>
-      <div class="project-card">
-        <h3>ML Price Predictor</h3>
-        <p>Machine learning model predicting product prices based on market data.</p>
+
+      <div class="service-card">
+        <h3>Data Visualization & Dashboards</h3>
+        <ul>
+          <li>Interactive BI Dashboards</li>
+          <li>Plotly, Power BI, D3.js</li>
+          <li>Real-Time Data Insights</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Brand & Portfolio Websites</h3>
+        <ul>
+          <li>Personal & Business Websites</li>
+          <li>Performance-Optimized Hosting</li>
+          <li>Modern, Minimal Design</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Business Analytics & Insights</h3>
+        <ul>
+          <li>Data-Driven Decision Tools</li>
+          <li>Predictive Models</li>
+          <li>Automation Reporting Systems</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Freelance / Consultation</h3>
+        <ul>
+          <li>Project-Based Development</li>
+          <li>Tech Strategy & Guidance</li>
+          <li>Code Review & Optimization</li>
+        </ul>
       </div>
     </div>
   </section>
 
-  <!-- ===== Contact Section ===== -->
-  <section id="contact" class="contact section">
-    <h2 class="section-title">Contact</h2>
-    <p>Let’s connect and create something impactful together.</p>
-    <div class="contact-links">
-      <a href="#" class="btn contact-btn">GitHub</a>
-      <a href="#" class="btn contact-btn">LinkedIn</a>
-      <a href="#" class="btn contact-btn">Email</a>
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section fade-in">
+    <h2>Recent Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>AI-Powered E-Commerce</h3>
+        <p>Integrated recommendation system and automated product tagging using ML for enhanced shopping experience.</p>
+        <span class="tags">#React #Python #MachineLearning</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Data Visualization Dashboard</h3>
+        <p>Interactive analytics dashboard built with Plotly & Django for real-time financial insights.</p>
+        <span class="tags">#Plotly #Django #Analytics</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Custom Chatbot Assistant</h3>
+        <p>AI-driven chatbot integrating NLP and workflow automation for a service-based company.</p>
+        <span class="tags">#AI #Chatbot #Automation</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Emotion-Adaptive Portfolio</h3>
+        <p>Personalized web portfolio adapting design and content dynamically based on user sentiment.</p>
+        <span class="tags">#NextJS #EmotionAI</span>
+      </div>
     </div>
   </section>
 
-  <footer class="footer">
-    <p>© 2025 Komal Tawar. All Rights Reserved.</p>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section fade-in">
+    <h2>Let’s Collaborate</h2>
+    <p>Got a project or idea? We’d love to help you build it intelligently.</p>
+
+    <form
+      class="contact-form"
+      action="https://formspree.io/f/myzbkzwy"
+      method="POST"
+    >
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <select name="service" required>
+        <option value="">Select a Service</option>
+        <option value="web">Web Development</option>
+        <option value="ai">AI-Powered Solution</option>
+        <option value="dashboard">Data Visualization</option>
+        <option value="consulting">Consultation</option>
+      </select>
+      <textarea
+        name="message"
+        placeholder="Tell us about your goals..."
+        rows="6"
+        required
+      ></textarea>
+      <button type="submit" class="cta-button primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ProKodeHub. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="#" target="_blank">GitHub</a> |
+      <a href="#" target="_blank">LinkedIn</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProKodeHub | Smart Web Solutions & AI Integration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">ProKodeHub</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">&#9776;</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <h1>Building Intelligent Digital Experiences</h1>
+      <p>Empowering businesses and creators through innovative web, AI, and data-driven solutions.</p>
+      <div class="cta-group">
+        <a href="#portfolio" class="cta-button primary">Explore Our Work</a>
+        <a href="#contact" class="cta-button secondary">Let’s Collaborate</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section fade-in">
+    <h2>About ProKodeHub</h2>
+    <p>ProKodeHub is a full-stack development startup that builds intelligent digital experiences — from web applications and AI integrations to creative brand websites for businesses and creators.</p>
+    <p>We combine design, data, and technology to craft solutions that are efficient, scalable, and truly intelligent.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section fade-in">
+    <h2>Our Expertise</h2>
+    <p class="section-subtitle">Delivering innovative, data-driven digital products.</p>
+
+    <div class="service-container">
+      <div class="service-card">
+        <h3>Web Development</h3>
+        <ul>
+          <li>React, Next.js, Django, Flask</li>
+          <li>Custom Backend APIs</li>
+          <li>Responsive UI & UX</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>AI-Powered Solutions</h3>
+        <ul>
+          <li>Chatbots & NLP Integration</li>
+          <li>Machine Learning Models</li>
+          <li>Automation Workflows</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Data Visualization & Dashboards</h3>
+        <ul>
+          <li>Interactive BI Dashboards</li>
+          <li>Plotly, Power BI, D3.js</li>
+          <li>Real-Time Data Insights</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Brand & Portfolio Websites</h3>
+        <ul>
+          <li>Personal & Business Websites</li>
+          <li>Performance-Optimized Hosting</li>
+          <li>Modern, Minimal Design</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Business Analytics & Insights</h3>
+        <ul>
+          <li>Data-Driven Decision Tools</li>
+          <li>Predictive Models</li>
+          <li>Automation Reporting Systems</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3>Freelance / Consultation</h3>
+        <ul>
+          <li>Project-Based Development</li>
+          <li>Tech Strategy & Guidance</li>
+          <li>Code Review & Optimization</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section fade-in">
+    <h2>Recent Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>AI-Powered E-Commerce</h3>
+        <p>Integrated recommendation system and automated product tagging using ML for enhanced shopping experience.</p>
+        <span class="tags">#React #Python #MachineLearning</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Data Visualization Dashboard</h3>
+        <p>Interactive analytics dashboard built with Plotly & Django for real-time financial insights.</p>
+        <span class="tags">#Plotly #Django #Analytics</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Custom Chatbot Assistant</h3>
+        <p>AI-driven chatbot integrating NLP and workflow automation for a service-based company.</p>
+        <span class="tags">#AI #Chatbot #Automation</span>
+      </div>
+
+      <div class="project-card">
+        <h3>Emotion-Adaptive Portfolio</h3>
+        <p>Personalized web portfolio adapting design and content dynamically based on user sentiment.</p>
+        <span class="tags">#NextJS #EmotionAI</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section fade-in">
+    <h2>Let’s Collaborate</h2>
+    <p>Got a project or idea? We’d love to help you build it intelligently.</p>
+
+    <form
+      class="contact-form"
+      action="https://formspree.io/f/mqagekge"
+      method="POST"
+    >
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <select name="service" required>
+        <option value="">Select a Service</option>
+        <option value="web">Web Development</option>
+        <option value="ai">AI-Powered Solution</option>
+        <option value="dashboard">Data Visualization</option>
+        <option value="consulting">Consultation</option>
+      </select>
+      <textarea
+        name="message"
+        placeholder="Tell us about your goals..."
+        rows="6"
+        required
+      ></textarea>
+      <button type="submit" class="cta-button primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ProKodeHub. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="#" target="_blank">GitHub</a> |
+      <a href="#" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> 9013e344d7317101ca007e6a3899751813fb3c9a
